@@ -1,0 +1,35 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+html, body {
+  height: 100%;
+}
+
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+
+.content {
+  flex: 1; 
+  overflow-y: auto; 
+  padding: 20px;
+}
+
+
+.footer {
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: aquamarine;
+  line-height: 50px;
+  width: 100%;
+}
